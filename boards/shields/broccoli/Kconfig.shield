@@ -1,0 +1,5 @@
+config SHIELD_BROCCOLI_LEFT
+    def_bool $(shields_list_contains,broccoli_left)
+
+config SHIELD_BROCCOLI_RIGHT
+    def_bool $(shields_list_contains,broccoli_right)

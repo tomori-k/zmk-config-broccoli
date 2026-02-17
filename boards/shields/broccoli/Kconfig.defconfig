@@ -1,0 +1,16 @@
+if SHIELD_BROCCOLI_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "broccoli"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif # SHIELD_BROCCOLI_LEFT
+
+if SHIELD_BROCCOLI_LEFT || SHIELD_BROCCOLI_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif # SHIELD_BROCCOLI_LEFT || SHIELD_BROCCOLI_RIGHT
