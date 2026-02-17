@@ -14,10 +14,10 @@ url: https://example.com
 # See https://zmk.dev/docs/development/hardware-integration/hardware-metadata-files#features
 features:
   - keys
-  - studio  # Remove this line if your keyboard will not support ZMK Studio
+  - studio # Remove this line if your keyboard will not support ZMK Studio
 
 requires:
-  - seeed_xiao
+  - seeeduino_xiao_ble
 
 siblings:
   - broccoli_left

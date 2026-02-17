@@ -18,5 +18,5 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
-board: ["seeed_xiao"]
+board: ["seeeduino_xiao_ble"]
 shield: ["broccoli_left", "broccoli_right"]
