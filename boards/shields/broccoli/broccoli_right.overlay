@@ -2,7 +2,6 @@
 // See https://zmk.dev/docs/development/hardware-integration/new-shield for more
 // instructions.
 
-#include <input/processors.dtsi>
 #include "broccoli.dtsi"
 
 &default_transform {

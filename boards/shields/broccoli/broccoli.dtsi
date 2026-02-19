@@ -3,6 +3,7 @@
 // instructions.
 
 #include <dt-bindings/zmk/matrix_transform.h>
+#include <input/processors.dtsi>
 
 #include "broccoli-layouts.dtsi"
 
