@@ -270,7 +270,7 @@
 };
 
 &trackball_listener {
-    input-processors = <&zip_xy_swap_mapper>;
+    input-processors = <&zip_xy_swap_mapper &zip_xy_transform INPUT_TRANSFORM_X_INVERT>;
     scroller {
         layers = <3>;
         input-processors = <&zip_xy_to_scroll_mapper &zip_scroll_scaler 1 16>;
