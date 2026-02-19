@@ -45,4 +45,10 @@
                                                 RC(3, 2) RC(3, 3)    RC(3, 7)
         >;
     };
+
+    trackball_listener: trackball_listener {
+        compatible = "zmk,input-listener";
+        status = "disabled";
+        device = <&trackball>;
+    };
 };
