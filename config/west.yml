@@ -14,7 +14,7 @@ manifest:
       import: app/west.yml
     - name: zmk-pmw3610-driver
       remote: tomori-k
-      revision: v2025.11.30
+      revision: rotate30
     - name: zmk-behavior-auto-capsword
       remote: tomori-k
       revision: v2025.12.24
