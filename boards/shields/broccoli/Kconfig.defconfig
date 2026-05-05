@@ -1,4 +1,4 @@
-if SHIELD_BROCCOLI_RIGHT
+if SHIELD_BROCCOLI_LEFT
 
 config ZMK_KEYBOARD_NAME
     default "broccoli"
