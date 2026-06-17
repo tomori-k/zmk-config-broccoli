@@ -21,7 +21,3 @@
         , <&xiao_d 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
         ;
 };
-
-&trackball_listener {
-    status = "okay";
-};
